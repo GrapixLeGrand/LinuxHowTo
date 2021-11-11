@@ -53,7 +53,16 @@ Then make sure that Ubuntu desktop is still installed:
 ```
 sudo apt-get install ubuntu-desktop
 ```
+THEN DON'T REBOOT NOW (just a friendly advice)
 
 # Reinstalling the driver:
-Goes to the software and update of Ubuntu and choose a tested driver
+Don't go to the weird ubuntu software updater, it always freaks me out with its GUI.
+Install the new driver from terminal
+
+```
+sudo apt install nvidia-driver-470
+```
+
+Replace the 470 by any version you'd like but be aware that some versions works like sh*t.
+
 
