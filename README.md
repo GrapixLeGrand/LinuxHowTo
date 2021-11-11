@@ -37,4 +37,23 @@ If some sh*t like bellow shows up this means that the GPU and drivers are recogn
 
 Else if you get an error message you'll need to figure out things
 
+#Uninstall the driver
+Look for all installed drivers and packages:
+
+```
+dpkg -l | grep -i nvidia
+```
+Then remove the whole sh*t:
+
+```
+sudo apt-get remove --purge '^nvidia-.*'
+```
+Then make sure that Ubuntu desktop is still installed:
+
+```
+sudo apt-get install ubuntu-desktop
+```
+
+# Reinstalling the driver:
+Goes to the software and update of Ubuntu and choose a tested driver
 
