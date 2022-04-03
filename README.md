@@ -56,13 +56,7 @@ sudo apt-get install ubuntu-desktop
 THEN DON'T REBOOT NOW (just a friendly advice)
 
 # Reinstalling the driver:
-Don't go to the weird ubuntu software updater, it always freaks me out with its GUI.
-Install the new driver from terminal
-
-```
-sudo apt install nvidia-driver-470
-```
-
-Replace the 470 by any version you'd like but be aware that some versions works like sh*t.
+Don't go to the weird ubuntu software updater, it always freaks me out with its GUI. Don't install from apt either.
+Use the following link https://support.system76.com/articles/system76-driver/.
 
 
